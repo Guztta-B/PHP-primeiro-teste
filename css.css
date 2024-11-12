@@ -1,0 +1,59 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b6b6b6;
+    margin: 0 ;
+    padding: 20px;
+}
+
+h1,h2{ 
+    color: #333;
+}
+
+form{ 
+    background-color: #747272; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(rgb(126, 126, 126), green, blue, alpha);
+}
+label{ 
+    display: block;
+    margin-top: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"]{ 
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+table, 
+th,
+td{ 
+    border: 1px solid #ffffff;
+    background-color: #747272;
+}
+
+th,
+td{ 
+    padding: 12px;
+    text-align: left;
+}
+.botao_editar,
+.botao_deletar{ 
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.botao_deletar{ 
+    background: red;
+}
+ .botao_editar{ 
+    background: green;
+ }
